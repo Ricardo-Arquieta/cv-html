@@ -10,4 +10,10 @@ html{
 
 body {
     overflow: hidden;
+    font-family: 'lato', 'poppins', sans-serif ;
+}
+
+p {
+    font-family: poppins;
+    font-size: 1.8rem;
 }
