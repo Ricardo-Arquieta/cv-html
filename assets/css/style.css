@@ -25,10 +25,6 @@ body {
     line-height: 1.5;
 }
 
-p {
-    font-family: poppins;
-    font-size: 1.8rem;
-}
 
 ul, ol {
     list-style: none;
@@ -54,4 +50,16 @@ form, input, select, button, label, textarea {
     font-size: inherit;
     color: inherit;
 }
+
+/*ESTILOS GENERALES*/
+:root{
+    --color-principal: #ffffff;
+    --color-secondary: #04B4E0;
+    --color-background: #F2F7F9;
+    --color-transparent: transparent;
+}
+
+/*ESTRUCTURA PRINCIPAL*/
+
+/*ESTILOS GENERALES*/
 
