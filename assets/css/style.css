@@ -1,65 +1,35 @@
-*{
-    padding: 0;
-    margin: 0;
-    vertical-align: baseline;
-}
 
-*,
-*::before,
-*::after{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-
-html{
-    font-size: 62.5%;
-    scroll-behaivor: smooth;
-}
-
-body {
-    min-height: 100vh;
-    scroll-behaivor: smooth;
-    text-rendering: optimizeSpeed;
-    font-family: 'lato', 'poppins', sans-serif ;
-    line-height: 1.5;
-}
-
-
-ul, ol {
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-    display:block
-}
-
-p a{
-    display: inline;
-}
-
-img, video, iframe, picture, figure{
-    max-width: 100%;
-    display:block;
-}
-
-form, input, select, button, label, textarea {
-    display:block;
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-}
-
-/*ESTILOS GENERALES*/
+/*Definición de Vaariables*/
 :root{
-    --color-principal: #ffffff;
+    --color-principal: #FFFFFFFF;
     --color-secondary: #04B4E0;
     --color-background: #F2F7F9;
     --color-transparent: transparent;
+    --color-icon: #B5B6B7;
+    --color-title: #222222;
+    --color-subtitle: #888888;
+    --color-text: #555555;
 }
 
-/*ESTRUCTURA PRINCIPAL*/
+/*Estilos Generales*/
+html{
+    font-size: 62.5%;
+}
 
-/*ESTILOS GENERALES*/
+body{
+    width: 100%;
+    height: auto;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--color-title);
+}
+
+/*Estructura Principal*/
+
+
 
