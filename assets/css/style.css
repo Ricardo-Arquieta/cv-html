@@ -85,16 +85,74 @@ body{
 .user-info__container-image{
     position: relative;
     display: inline-block;
-    width: 18rem;
-    margin-top: 7rem;
-    background-color: var(--color-principal);
-    border: 0.3rem solid var(--color-principal);
-    border-radius: 20rem;
-    overflow: hidden;
+    width: 17rem;
+    margin-top: 4rem;
+    z-index: 1;
 }
 
 .user-info__image{
     width: 100%;
+    background-color: var(--color-principal);
+    border: 0.3rem solid var(--color-principal);
+    border-radius: 20rem;
+}
+
+.user-info__container-image::after{
+    content: "";
+    position: absolut;
+    top: 5%;
+    left: 9%;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-repeating-radial-gradient(center center, #fff, #fff 1px, transparent, transparent 100%);
+    background-size: 0.6rem 0.6rem;
+    opacity: 0,4;
+    border-radius: 30rem; 
+}
+
+.user-info__name{
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-principal);
+}
+
+.user-info__job{
+    font-size: 1.7rem;
+    font-weight: 200;
+    color: var(--color-principal);
+}
+
+.user-info__llinks{
+    margin-bottom: 3.6rem;
+}
+
+
+.links__social{
+    margin-top: 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.social__option{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    opacity: 0.6;
+}
+
+    social__option:hover{
+        opacity: 1;
+        background-color: rgba(255, 255, 255, 0.20);
+        /*Dar seguimiento a este bloque de código, ya que no está  funcionando*/
+    }
+
+.user-layout__menu{
+    display: none !important;
 }
 
 /*CONTENEDOR PRINCIPAL*/
