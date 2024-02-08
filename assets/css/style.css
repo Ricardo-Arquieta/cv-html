@@ -221,10 +221,10 @@ body{
 }
 
 /*Revisar en que parte estamos equivocados en esta sección del código*/
-.user-layout__menu{
+.layout__menu{
     display: block;
     position: absolute;
-
+    
     top: 0;
     right: -50px;
 }
