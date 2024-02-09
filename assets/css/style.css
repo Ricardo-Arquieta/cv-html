@@ -85,8 +85,8 @@ body{
 .user-info__container-image{
     position: relative;
     display: inline-block;
-    width: 17rem;
-    margin-top: 4rem;
+    width: 13rem;
+    margin-top: 3rem;
     z-index: 1;
 }
 
@@ -113,7 +113,7 @@ body{
 
 .user-info__name{
     margin-top: 2.6rem;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-weight: bold;
     color: var(--color-principal);
 }
@@ -126,12 +126,12 @@ body{
 }
 
 .user-info__links{
-    margin-bottom: 3.6rem;
+    margin-bottom: 1rem;
 }
 
 
 .links__social{
-    margin-top: 7rem;
+    margin-top: 2rem;
     text-align: center;
 
     display: flex;
@@ -141,7 +141,7 @@ body{
 .social__option{
     height: 3rem;
     width: 3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 3rem;
     opacity: 0.6;
     border-radius: 3rem;
@@ -155,15 +155,16 @@ body{
 }
 
 .user-info__butons{
-    margin-top: 3.5rem;
-    margin-bottom: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
+/*Botón de descarga de archivo PDF (CV)*/
 .user-info__btn{
     border: 2px solid var(--color-principal);
-    padding: 3rem;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-radius: 3rem;
     color: var(--color-principal);
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.22);
@@ -175,6 +176,7 @@ body{
     color: var(--color-secondary);
 }
 
+/*Footer de la parte lateral*/
 .user-info__footer{
     position: absolute;
     bottom: 2rem;
@@ -225,9 +227,50 @@ body{
     display: block;
     position: absolute;
     
+    max-width: 11rem;
+
     top: 0;
-    right: -50px;
+    right: -38px;
+    background-color: var(--color-transparent);
 }
 
+.menu__list{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+
+    padding: 2rem 0;
+    margin-left: 3rem;
+
+    width: 60%;
+    min-height: 25rem;
+    background-color: var(--color-principal);
+    box-shadow: 0 0 3rem -0.5rem rgba(0, 0, 0, 0.15);
+    border-radius: 5rem;
+}
+
+.menu__option{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.menu__option:hover .menu__icon{
+    color: var(--color-secondary);
+    transition: all 400ms ease-in-out;
+}
+
+.menu__icon{
+    color: var(--color-icon);
+    font-size: 2rem;
+}
+
+.menu__overlay{
+    opacity: 0;
+    display: none;
+}
 
 
